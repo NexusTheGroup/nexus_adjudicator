@@ -1,4 +1,10 @@
 import typer, os, subprocess, sys
+
+# ensure repository root is on sys.path so `import tools.*` works when
+# running this module directly (e.g. `python -m tools.nexus`).
+repo_root = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+if repo_root not in sys.path:
+    sys.path.insert(0, repo_root)
 app = typer.Typer(help="Nexus CLI (starter)")
 
 @app.command()

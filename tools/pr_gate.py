@@ -1,4 +1,10 @@
 import argparse, json, os, sys
+
+# ensure repository root is on sys.path so imports like `from tools.commons` work
+repo_root = os.path.dirname(os.path.dirname(__file__))
+if repo_root not in sys.path:
+    sys.path.insert(0, repo_root)
+
 from tools.commons.schema import PR_VERDICT_KEYS, validate_shape
 
 MIN_COVERAGE = float(os.getenv("NEXUS_MIN_COVERAGE", "85"))
