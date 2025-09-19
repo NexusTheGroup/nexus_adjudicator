@@ -1,0 +1,8 @@
+typer==0.9.0
+click==8.1.7
+PyYAML==6.0
+jq==1.0
+mermaid-cli==8.3.0
+requests==2.31.0
+
+# Optional: add other dependencies used in tools/ (add as needed)
