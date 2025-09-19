@@ -1,0 +1,15 @@
+spec_kit:
+  spec_glob: "specs/**/requirement.md"
+  plan_glob: "plans/**/plan.md"
+  tasks_glob: "tasks/**/tasks.md"
+mapping:
+  title: "frontmatter.title || h1"
+  summary: "section.summary || bullets.overview"
+  actors: "section.personas || section.actors"
+  acceptance_criteria: "section.acceptance || section.criteria"
+  non_goals: "section.out_of_scope"
+  dependencies: "section.dependencies"
+  risks: "section.risks"
+links:
+  work_order_path: "artifacts/work/Work_Order.md"
+  diagrams_dir: "artifacts/diagrams"
