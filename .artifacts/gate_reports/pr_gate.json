@@ -1,0 +1,18 @@
+{
+  "pass": false,
+  "reasons": [
+    "coverage missing < 85.0%"
+  ],
+  "required_fixes": [],
+  "inline_comments": [],
+  "coverage_delta": "n/a",
+  "policy": {
+    "opa_pass": true,
+    "violations": []
+  },
+  "vuln": {
+    "critical": 0,
+    "high": 0,
+    "osv_total": 0
+  }
+}

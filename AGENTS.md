@@ -21,6 +21,7 @@ Read GUARDRAILS, WORKFLOW, SCORING before any work.
 Timezone: America/Chicago
 | AI Name | Model | Session ID | Login (ISO) | Work Type | Files/Areas | Logout (ISO) | Summary | Self-Score |
 |---|---|---|---|---|---|---|---|---|
+| Codex | GPT-5 | sess-20250919011910 | 2025-09-19T01:19:10-05:00 | spec-translation | bootstrap |  | Translated bootstrap Spec-Kit | - |
 <!-- >>ROW:CHECKIN:END -->
 
 <!-- >>ROW:GUARDRAILS:BEGIN -->

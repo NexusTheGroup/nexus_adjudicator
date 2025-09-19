@@ -1,0 +1,32 @@
+{
+  "product": {
+    "title": "Nexus Translator & Console Workstream",
+    "summary": "Deliver the first translator pipeline, service APIs, and console wiring so teams can adopt Nexus Adjudicator without manual scaffolding.",
+    "actors": [
+      "Platform engineers",
+      "Release managers",
+      "Application teams"
+    ],
+    "acceptance_criteria": [],
+    "non_goals": [],
+    "dependencies": [
+      "Python 3.10",
+      "Node 18",
+      "GitHub CLI for optional PR automation."
+    ],
+    "risks": [
+      "Missing spec kits halting translation.",
+      "Misconfigured CI gating blocking releases."
+    ]
+  },
+  "source": {
+    "requirement": "specs/bootstrap/requirement.md",
+    "plan": "plans/bootstrap/plan.md",
+    "tasks": "tasks/bootstrap/tasks.md"
+  },
+  "metadata": {
+    "adapter": "/home/nexus/code/nexus_adjudicator/nexus_adjudicator/tools/translator/adapter.yml",
+    "generated_at": "2025-09-19T06:19:10.422071+00:00",
+    "slug": "bootstrap"
+  }
+}
